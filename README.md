@@ -54,7 +54,7 @@ You can program without desoldering the module, but you need to desoldering temp
     "24": "Rel;2"
   },
   "command": "",
-  "image": "https://github.com/ruigaspar/Flash_MINI-W1-2CH_with_OpenBK7231N/images/BK7231GUIFlashTool.png",
+  "image": "https://github.com/ruigaspar/Flash_MINI-W1-2CH_with_OpenBK7231N/blob/master/images/BK7231GUIFlashTool.png",
   "wiki": "https://github.com/ruigaspar/Flash_MINI-W1-2CH_with_OpenBK7231N"
 }
 ```
