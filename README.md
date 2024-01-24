@@ -23,10 +23,10 @@ You can program without desoldering the module, but you need to desoldering temp
 1. Download the last release of flash tool [here](https://github.com/openshwprojects/BK7231GUIFlashTool/releases).
 2. Plug the UART Converter on USB port.
 3. Select the COM Port.
-4. Select chip type BK7231N.
-5. Click on button 'download lastest from web.'
-6. Select the last firmware
-7. Click on button 'Do backup and flash new'
+4. Select chip type `BK7231N`.
+5. Click on the button `Download latest from web`.
+6. Select the last firmware.
+7. Click on the button `Do backup and flash new`.
 
 ![](images/BK7231GUIFlashTool.png)
 
