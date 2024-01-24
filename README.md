@@ -1,14 +1,21 @@
 # Flash MINI-W1-2CH with OpenBK7231N
 
+<img src="images/MINI-W1-2CH.jpg" width="500">
+
 This tutorial aims to convert the brand's base smart switch device (tuya) into a generic one to be used, for example, with HomeAssistant over mqtt.
 
 The device has no manufacturer, neither on them nor on the box. Only the general model is MINI-W1-2CH.
-This is based on the BK7231N system and flashed with the last OpenBK7231N firmware by [BK7231GUIFlashTool](https://github.com/openshwprojects/BK7231GUIFlashTool).
+This is based on the BK7231N cb2s system and flashed with the last OpenBK7231N firmware by [BK7231GUIFlashTool](https://github.com/openshwprojects/BK7231GUIFlashTool).
 
 The housing is assembled with 4 latches, which release quite easily when lifted. 
 You can program without desoldering the module, but you need to desoldering temporarily the CEN pin.
 
+## Photos
 
+<img src="images/Board_1.jpg" width="500">
+<img src="images/Board_2.jpg" width="500">
+<img src="images/Board_3.jpg" width="500">
+<img src="images/Board_4.jpg" width="500">
 
 ## Requirements
 * Tuya WIFI 2 Gang Smart Switch Module 2 Way [Link](https://s.click.aliexpress.com/e/_DESCCPB)
@@ -16,7 +23,28 @@ You can program without desoldering the module, but you need to desoldering temp
 * Soldering Iron
 * Wires
   
+## Pinout
+
+<img src="images/Pinout_1.png" width="300">
+<img src="images/Pinout_2.png" width="300">
+
+<img src="images/Pinout.jpg" width="600">
+<img src="images/Usb_to_ttl_wires.jpg" width="600">
+
 ## Soldering
+
+| CB2S  | USB TO TTL |
+| --- | --- |
+| 3v3 | 3V3 |
+| GND | GND |
+| RX1 | TXD |
+| TX1 | RXD |
+
+
+<img src="images/Connections.jpg" width="600">
+<img src="images/Connections_detail.jpg" width="600">
+
+<img src="images/CEN_desoldering.jpg" width="600">
 
 ## Flash
 
@@ -28,7 +56,8 @@ You can program without desoldering the module, but you need to desoldering temp
 6. Select the last firmware.
 7. Click on the button `Do backup and flash new`.
 
-![](images/BK7231GUIFlashTool.png)
+
+<img src="images/BK7231GUIFlashTool.png" width="1000">
 
 ## Configuration
 ```
@@ -58,3 +87,7 @@ You can program without desoldering the module, but you need to desoldering temp
   "wiki": "https://github.com/ruigaspar/Flash_MINI-W1-2CH_with_OpenBK7231N"
 }
 ```
+
+<img src="images/Config_1.png" width="600">
+<img src="images/Config_5.png" width="600">
+<img src="images/Config_6.png" width="600">
