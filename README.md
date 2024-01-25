@@ -2,13 +2,13 @@
 
 <img src="images/MINI-W1-2CH.jpg" width="500">
 
-This tutorial aims to convert the brand's base smart switch device (tuya) into a generic one to be used, for example, with HomeAssistant over mqtt.
+This tutorial aims to transform the smart switch device from the brand (Tuya/Aubess) into a generic one, allowing it to be compatible, for instance, with HomeAssistant using mqtt.
 
-The device has no manufacturer, neither on them nor on the box. Only the general model is MINI-W1-2CH.
-This is based on the BK7231N cb2s system and flashed with the last OpenBK7231N firmware by [BK7231GUIFlashTool](https://github.com/openshwprojects/BK7231GUIFlashTool).
+The device has no manufacturer, neither on it nor on the box, it just says model MINI-W1-2CH.
+This is based on the BK7231N cb2s system and has been flashed with the latest OpenBK7231N firmware using  [BK7231GUIFlashTool](https://github.com/openshwprojects/BK7231GUIFlashTool).
 
-The housing is assembled with 4 latches, which release quite easily when lifted. 
-You can program without desoldering the module, but you need to desoldering temporarily the CEN pin.
+The housing is assembled with 4 latches that can be easily released when lifted.
+Programming can be done without the need for desoldering the module, however, you need to desoldering temporarily the CEN pin.
 
 ## Photos
 
@@ -39,7 +39,6 @@ You can program without desoldering the module, but you need to desoldering temp
 | GND | GND |
 | RX1 | TXD |
 | TX1 | RXD |
-
 
 <img src="images/Connections.jpg" width="600">
 <img src="images/Connections_detail.jpg" width="600">
@@ -91,3 +90,10 @@ You can program without desoldering the module, but you need to desoldering temp
 <img src="images/Config_1.png" width="600">
 <img src="images/Config_5.png" width="600">
 <img src="images/Config_6.png" width="600">
+
+
+
+
+---
+
+<a href="https://www.buymeacoffee.com/ruigaspar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
