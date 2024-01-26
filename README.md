@@ -69,7 +69,7 @@ Please note that the RX pin of the switch should be connected to the TX pin of t
 3. Open the browser and navigate to: `http://192.168.4.1`.
 4. Click on the `Launch Web Application` button.
 5. In the `Import` tab, copy and paste the code you can find below and click `Clear OBK and apply new script from above`.
-6. Return to the address `http://192.168.4.1` and you can interact with the device.
+6. Return to the address `http://192.168.4.1` and now you can interact with the device.
 
 ```
 {
