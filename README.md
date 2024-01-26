@@ -33,6 +33,10 @@ Programming can be done without the need for desoldering the module, however, yo
 
 ## Soldering
 
+Solder carefully 4 wires to the following pins on the cb2s module as shown in the table below. 
+It will also be necessary to temporarily desolder the CEN pin while programming the switch. In the end, it is necessary to solder the CEN pin back again.
+Please note that the RX pin of the switch should be connected to the TX pin of the USB to TTL module, and the TX pin of the switch to the RX pin of the USB to TTL module."
+
 | CB2S  | USB TO TTL |
 | --- | --- |
 | 3v3 | 3V3 |
@@ -59,6 +63,14 @@ Programming can be done without the need for desoldering the module, however, yo
 <img src="images/BK7231GUIFlashTool.png" width="1000">
 
 ## Configuration
+
+1. Connect the module to power through the L-in and N-in pins.
+2. Search for the Wi-Fi network being broadcasted by the switch and connect to it.
+3. Open the browser and navigate to: `http://192.168.4.1`.
+4. Click on the `Launch Web Application` button.
+5. In the `Import` tab, copy and paste the code you can find below and click `Clear OBK and apply new script from above`.
+6. Return to the address `http://192.168.4.1` and you can interact with the device.
+
 ```
 {
   "vendor": "Tuya",
